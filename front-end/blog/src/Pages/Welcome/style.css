@@ -1,0 +1,55 @@
+.back{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.modal{
+    width: 20vw;
+    margin-bottom: 10vh;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #717171;
+}
+
+.logo{
+    width: 10vw;
+}
+
+.titleWelcome{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.button{
+    width: 80%;
+    height: 4.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    outline: none;
+    background-color: #185dff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.loadingWelcome{
+    color: #fff;
+}

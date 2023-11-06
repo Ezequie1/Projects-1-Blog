@@ -1,0 +1,36 @@
+.card{
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconAndDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    color: #717171;
+}
+
+.contentCard{
+    width: 95%;
+    color: #717171;
+}
+
+.title{
+    margin: 0;
+    font-size: 26px;
+    color: #000;
+}
+
+.iconFavorite{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.iconFavorite:hover{
+    color: red;
+}

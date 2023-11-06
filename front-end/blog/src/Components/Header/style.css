@@ -1,0 +1,48 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    top: 0;
+}
+
+.divInfosBlog{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+.divInput{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 3vh;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    gap: 10px;
+}
+
+.input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.input::placeholder{
+    color: #ffffff48;
+}
+
+.iconSearch{
+    margin-left: 10px;
+}
