@@ -26,11 +26,59 @@
     color: #000;
 }
 
+.iconsOption{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .iconFavorite{
+    color: red;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.iconFavorite:hover{
+.iconNoneFavorite{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.iconNoneFavorite:hover{
+    color: red;
+}
+
+.tooltip{
+    position: absolute;
+    margin-top: 40px;
+    margin-right: -40px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.iconMoreOptions{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsSelects{
+    gap: 10px;
+    padding-right: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.edit:hover{
+    color: rgb(67, 67, 235);
+}
+
+.delete:hover{
     color: red;
 }

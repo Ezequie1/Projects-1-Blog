@@ -9,6 +9,10 @@ export function HomePage(){
             <Header/>
             <div className="column">
                 <CardText/>
+                <CardText/>
+                <CardText/>
+                <CardText/>
+                <CardText/>
             </div>
         </>
     )

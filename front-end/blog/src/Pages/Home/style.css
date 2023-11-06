@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 3vh;
     padding-top: 25vh;
     width: 100%;
 }
