@@ -76,9 +76,94 @@
 }
 
 .edit:hover{
-    color: rgb(67, 67, 235);
+    color: #414141;
 }
+
 
 .delete:hover{
     color: red;
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.divButtons{
+    width: 100%;
+    gap: 1vw;
+}
+
+.buttonDelete{
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 33px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #c0c0c0;
+}
+
+.yes:hover{
+    background-color: red;
+}
+
+.no:hover{
+    background-color:  #185dff;
+}
+
+.textField{
+    width: 95%;
+}
+
+.modalEdit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45vw;
+    transform: translate(-50%, -50%);
+    outline: none;
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3vh;
+}
+
+.titleEdit{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subtitleEdit{
+    font-size: 15px;
+    color: #717171;
+    margin: 0;
+}
+
+.divButtonsEdit{
+    width: 95%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.editButton{
+    width: 20%;
+    color: #fff;
 }
