@@ -8,19 +8,6 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import { editPost, favoritePost, removePost } from "../../Service/postService";
 import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
-import { Navigate } from "react-router-dom";
-
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    border: 'none',
-    boxShadow: 24,
-    p: 4,
-};
 
 export function CardText(props){
     const [seeOption, setOptions] = useState('none');

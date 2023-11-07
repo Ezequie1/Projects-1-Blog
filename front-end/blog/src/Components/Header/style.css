@@ -29,6 +29,14 @@
     gap: 10px;
 }
 
+.divNotFound{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .input{
     background-color: transparent;
     width: 100%;
@@ -41,6 +49,14 @@
 
 .input::placeholder{
     color: #ffffff48;
+}
+
+.iconAdd{
+    position: fixed;
+    right: 10vw;
+    bottom: 10vh;
+    font-family: 'Lexend Deca', sans-serif;
+    z-index: 100;
 }
 
 .iconSearch{
